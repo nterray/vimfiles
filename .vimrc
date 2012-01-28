@@ -1,7 +1,11 @@
 "
 " MAIN CUSTOMIZATION FILE
 "
+
+set t_Co=256
 set bg=dark
+colorscheme candycode
+set number
 
 " Enable loading filetype and indentation plugins
 filetype plugin on
