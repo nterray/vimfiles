@@ -1,6 +1,7 @@
 "
 " MAIN CUSTOMIZATION FILE
 "
+set bg=dark
 
 " Enable loading filetype and indentation plugins
 filetype plugin on
