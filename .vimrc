@@ -19,6 +19,7 @@ syntax on
 " GLOBAL SETTINGS
 "
 
+set foldlevelstart=20
 " Write contents of the file, if it has been modified, on buffer exit
 set autowrite
 
