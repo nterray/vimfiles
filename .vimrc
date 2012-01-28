@@ -5,6 +5,7 @@
 set t_Co=256
 set bg=dark
 colorscheme candycode
+" colorscheme jellybeans
 set number
 
 " Enable loading filetype and indentation plugins
@@ -43,7 +44,7 @@ set laststatus=2
 set matchtime=2
 
 " Don't highlight results of a search
-set nohlsearch
+" set nohlsearch
 
 " Enable CTRL-A/CTRL-X to work on octal and hex numbers, as well as characters
 set nrformats=octal,hex,alpha
@@ -144,10 +145,10 @@ vnoremap < <gv
 vnoremap > >gv 
 
 " Generic highlight changes
-highlight Comment cterm=none ctermfg=Gray
+" highlight Comment cterm=none ctermfg=Gray
 highlight IncSearch cterm=none ctermfg=Black ctermbg=DarkYellow
 highlight Search cterm=none ctermfg=Black ctermbg=DarkYellow
-highlight String cterm=none ctermfg=DarkGreen
+" highlight String cterm=none ctermfg=DarkGreen
 highlight treeDir cterm=none ctermfg=Cyan
 highlight treeUp cterm=none ctermfg=DarkYellow
 highlight treeCWD cterm=none ctermfg=DarkYellow
