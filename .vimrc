@@ -4,8 +4,8 @@
 
 set t_Co=256
 set bg=dark
-colorscheme candycode
-" colorscheme jellybeans
+" colorscheme candycode
+colorscheme jellybeans
 set number
 
 " Enable loading filetype and indentation plugins
@@ -113,6 +113,9 @@ let loaded_matchparen = 1
 
 " netRW: Open files in a split window
 let g:netrw_browse_split = 1
+
+" Show nonprintable chars (tabs and trailing spaces)
+set list listchars=tab:»۰,trail:·,eol:∙
 
 "
 " MAPPINGS
