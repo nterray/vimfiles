@@ -77,6 +77,9 @@ set t_RV=
 " Use 4 spaces for <Tab> and :retab
 set tabstop=4
 
+" Use soft tabs (spaces instead of <Tab>)
+set expandtab
+
 " Write swap file to disk after every 50 characters
 set updatecount=50
 
