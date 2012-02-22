@@ -5,6 +5,7 @@
 set t_Co=256
 set bg=dark
 " colorscheme candycode
+" colorscheme torte
 colorscheme jellybeans
 set number
 
@@ -46,6 +47,7 @@ set matchtime=2
 
 " Don't highlight results of a search
 " set nohlsearch
+set hlsearch
 
 " Enable CTRL-A/CTRL-X to work on octal and hex numbers, as well as characters
 set nrformats=octal,hex,alpha
@@ -115,7 +117,7 @@ let loaded_matchparen = 1
 let g:netrw_browse_split = 1
 
 " Show nonprintable chars (tabs and trailing spaces)
-set list listchars=tab:»۰,trail:·,eol:∙
+set list listchars=tab:»۰,trail:·,eol:⋅
 
 "
 " MAPPINGS
