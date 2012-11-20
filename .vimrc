@@ -118,6 +118,7 @@ let g:netrw_browse_split = 1
 
 " Show nonprintable chars (tabs and trailing spaces)
 set list listchars=tab:»۰,trail:·,eol:⋅
+nmap <F3> :set list!<Return>
 
 "
 " MAPPINGS
